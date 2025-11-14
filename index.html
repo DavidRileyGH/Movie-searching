@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en" class="md-theme-default">
     <head>
         <meta charset="utf-8">
@@ -458,7 +459,7 @@
             }
         </style>
         <link rel="icon" href="/favicon.ico">
-        <title>Car Subscription Platform for Dealerships | Blinker.com.au</title>
+        <title>Movie Search</title>
         <link href="/css/findyourcar.604be99f.css" rel="prefetch">
         <link href="/js/findyourcar.e6a53eeb.js" rel="prefetch">
         <link href="/css/app.a5feeff2.css" rel="preload" as="style">
@@ -469,6 +470,12 @@
         <link href="/css/app.a5feeff2.css" rel="stylesheet">
     </head>
     <body>
+        <input id="search" placeholder="Search for a movie..." />
+        <button onclick="handleSearch()">Search</button>
+
+        <div id="results"></div>
+
+        <script src="script.js"></script>
         <noscript>
             "<strong>We're sorry but blinker-webapp doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>"
         </noscript>
